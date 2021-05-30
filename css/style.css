@@ -27,7 +27,7 @@ a{
     padding-left: 2rem;
     padding-top: 0.3rem;
 }
-span{
+.spans_item{
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -129,31 +129,42 @@ span{
 hr{
     text-align: center;
 }
-h4{
+.info h4{
     text-align: center;
     letter-spacing: .2rem;
     text-transform: uppercase;
     color:#828484;
     font-weight: bold;
+    font-size: 1.7rem;
+    padding: 0.5rem;
 }
 .info img{
-    border-radius: 5%;
+    padding: 0.7rem;
+    border-radius: 10%;
     height: 15rem;
     width: 15rem;
 }
-h6{
+.info h6{
     margin:1.4rem;
+    font-size: 0.8rem;
 }
 .category{
     display: flex;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
+    line-height: 2rem;
 }
 .category li{
     list-style: none;
 }
+.left{
+    padding: 1rem;
+}
 .left li a{
-    padding:.3rem;
+    padding:.5rem;
+    font-size: 1rem;
+
 }
 .left li a i{
     font-size: 1.5rem;

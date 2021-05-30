@@ -64,6 +64,10 @@
   grid-auto-flow: row dense;
 }
 
+.item__details .read {
+  text-align: left;
+}
+
 .item {
   position: relative;
   display: -webkit-box;
@@ -173,5 +177,11 @@
   font-size: 1.1rem;
   padding-right: 0.5em;
   color: #444;
+}
+
+.read {
+  display: block;
+  font-size: 13px;
+  margin-top: .5rem;
 }
 /*# sourceMappingURL=app.css.map */
